@@ -1,4 +1,4 @@
-# 🏢 MTCC Admin Portal
+# 🏢 MCTP Admin Portal
 
 > A modern, responsive admin dashboard for the **My Virtual Consultant** diagnostic platform — built with React, Tailwind CSS, and love. ☕
 

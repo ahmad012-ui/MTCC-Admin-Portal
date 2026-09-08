@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Layout from "./components/Layout"
 import Dashboard from "./pages/Dashboard"
 import Contacts from "./pages/Contacts"
@@ -25,6 +26,7 @@ function App() {
             <Route path="groups" element={<Groups />} />
           </Route>
         </Routes>
+        <SpeedInsights />
       </BrowserRouter>
   )
 }
